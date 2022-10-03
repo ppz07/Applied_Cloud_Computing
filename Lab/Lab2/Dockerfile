@@ -13,10 +13,13 @@ RUN useradd -ms /bin/bash our_user
 
 # port
 EXPOSE 8888
+
+RUN mkdir home/our_user/jupyter_notebook
+RUN cd home/our_user/jupyter_notebook
 RUN wget 'https://github.com/ppz07/Applied_Cloud_Computing/blob/main/Lab/Linear%20Regression%20Complete-Copy1.ipynb'
 
 
-USER ${JUPYTER_USER}
+USER our_user
 CMD jupyter notebook --ip=0.0.0.0 --port 8888 
 
 COPY requirements.txt .
