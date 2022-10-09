@@ -1,5 +1,11 @@
 ## How to run the code
 
+# In dba Dockerfile
+
+docker build -t my_dba .
+
+docker run --name mydba  -p 8081:80 -d my_dba
+
 in app/app/app/settings.py  change DATABASES: NAME, USER, PASSWORD, HOST, PORT
 
 RERUN THE migrate using code: python app/app/manage.py migrate
