@@ -43,7 +43,7 @@ python /app/app/manage.py createsuperuser
 
 
 
-### 
+### more
 in app/app/app/settings.py  change DATABASES: NAME, USER, PASSWORD, HOST, PORT
 
 RERUN THE migrate using code: 
