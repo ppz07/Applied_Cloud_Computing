@@ -1,6 +1,6 @@
-## How to run the code
+# How to run the code
 
-# In dba Dockerfile
+## In dba Dockerfile
 
 docker build -t my_dba .
 
