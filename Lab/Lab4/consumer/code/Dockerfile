@@ -6,7 +6,7 @@ RUN pip install flask
 RUN pip3 install requests
 
 
-VOLUME ["/app"]
+VOLUME /app
 WORKDIR /app
 
 EXPOSE 80
