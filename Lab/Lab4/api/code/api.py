@@ -34,7 +34,11 @@ def meal_recom():
     {'meal': 'Chaofan', 
      'price': '$15'},
     {'meal': 'Baozi', 
-     'price': '$30'}]
+     'price': '$30'},
+    {'meal': 'Chicken',
+     'price': '$26'},
+    {'meal': 'Wanton',
+     'price': '19'}]
     meal_show = random.choice(meals)
     return json.dumps(meal_show)
 
