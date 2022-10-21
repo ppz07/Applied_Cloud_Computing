@@ -12,7 +12,13 @@ add new server
 
 name: db
 
-connection: Host name/address(db)         Username(root)      Password(pass)
+connection: 
+
+Host name/address(db)         
+
+Username(root)      
+
+Password(pass)
 
 
 ### docker-compose down
